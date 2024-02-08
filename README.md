@@ -1,23 +1,64 @@
-# J[u]MP ( Offline Repository )
-# A Simplified R3D Iteration
+# J[u]MP
 
-# Stack
--   jquery 4 ( not released )
-    - or htmx 2 ( not released )
-    - or alpine ( not implemented )
+<!--  Data: \www\htdocs\_data\obsidian\obsidian\Archive -->
+
+## Reimplementation
+Initial Project Was Overly Complicated, Without Understanding How Impractical It Would Be To Implement And Host. Initially Planned On Running A Complicated Backend On A Local Machine And Serve JSON And Markdown Files Through A Flask API.
+
+Instead Of Using An API, Simply Serving The JSON And Markdown Files And Merging or Updating When Required. This Simplified The Process, Nearly Eliminating The Need For A Dedicated Backend Service.
+
+## Purpose
+Serve Markdown Files From Local System To Online Archive Website.
+
+1. Render Markdown On Screen With Parsedown.php
+2. Dynamically Serve Collections of Markdown Files
+    - Htmx Use Cases?
+    - jQuery Use Cases? 
+3. What Is Needed In A SQLite Database
+4. PHP Micro Framework
+    - Is A Framework Needed?
+    - What Are The Benifits
+    - Leaf PHP Use Cases
+5. Pico.css For Simplicity
+
+## Stack
+- jQuery Slim - Htmx 
+- Markdown
+- PHP 
+
+## Usage
+- jQuery 4 Slim ( alpha - not implemented )
+    - Htmx 2 ( not released )
+    - or alpine.js ( not implemented )
 -   [u]
--   markdown
+- markdown
     - sqlite 3 ( not currently needed )
+    - mongodb ( not currently needed )
 -   php
     - Parsedown.php
 
+## Packages
+- jQuery
+https://blog.jquery.com/
+
+- Htmx
+https://htmx.org/docs/
+
+- Leaf PHP
+https://leafphp.dev/docs/introduction/
+
+- SQLite
+https://www.sqlite.org/whentouse.html
+
+- Parsedown
+https://parsedown.org/
+
+- Pico CSS
+https://picocss.com/docs/
 
 
 
-Temporary Readme
-
----
-
+___
 
 # Old Repository
 # R3D ( Offline Repository )
