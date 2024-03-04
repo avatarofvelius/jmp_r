@@ -20,7 +20,6 @@ Instead Of Using An API, Simply Serving The JSON And Markdown Files And Merging 
  > Wait For Htmx 2 Release ( currently alpha )
 3. Learn Htmx 
 
-___
 
 ## Purpose
 Serve Markdown Files From Local System To Online Archive Website.
@@ -53,8 +52,6 @@ Serve Markdown Files From Local System To Online Archive Website.
 - sqlite 3 ( not currently needed )
 - Parsedown.php
 
-
-___
 
 
 ## Packages
